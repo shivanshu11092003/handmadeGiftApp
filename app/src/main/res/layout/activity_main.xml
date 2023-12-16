@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+
+
+        android:gravity="center"
+        android:text="@string/ks_craft05" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="match_parent"
+        android:layout_height="243dp"
+
+        app:srcCompat="@drawable/_84283414_689579199459763_7994882697174576747_n" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="335dp"
+        android:layout_marginBottom="20dp">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="205dp"
+
+
+            android:text="Introducing our artisanal haven, a bespoke handmade gift shop that epitomizes the essence of craftsmanship and uniqueness. As a burgeoning startup, we take immense pride in curating a collection of meticulously crafted treasures that transcend the ordinary. Each piece in our assemblage is thoughtfully designed and handcrafted by skilled artisans, ensuring a harmonious blend of creativity and quality.
+
+At KS_Craft-05, we are on a mission to redefine gifting, offering an exclusive array of handcrafted wonders that cater to diverse tastes and occasions. Our curated selection encompasses a myriad of bespoke items, ranging from intricately designed decor to personalized accessories, each telling a story of dedication and passion. We believe in the art of gifting, where every present holds sentimental value and becomes a cherished memory.
+
+In our pursuit of excellence, we source only the finest materials and collaborate with artisans who share our commitment to craftsmanship. Our startup endeavors to provide a seamless online shopping experience, ensuring that each customer receives a handpicked creation delivered with care and attention to detail. Navigate through our virtual storefront and discover the artistry, creativity, and uniqueness that defines KS_Craft-05 your destination for timeless handmade treasures. Welcome to a world where every gift is a masterpiece, and every purchase supports the artisans behind the craft." />
+
+
+    </ScrollView>
+
+
+    <Button
+        android:id="@+id/orderbtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/book_order"
+        android:textColor="@color/black"/>
+
+    <Button
+        android:id="@+id/contactbtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/contact_us" />
+
+
+</LinearLayout>
