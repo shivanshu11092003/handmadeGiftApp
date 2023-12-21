@@ -21,7 +21,7 @@ class MainActivity : AppCompatActivity() {
     val conatactbtn=findViewById<Button>(R.id.contactbtn)
     conatactbtn.setOnClickListener {
         val intent=Intent(Intent.ACTION_DIAL)
-        intent.setData(Uri.parse("tel:9369282472"))
+        intent.setData(Uri.parse("tel:8467849681"))
         startActivity(intent)
     }
 
